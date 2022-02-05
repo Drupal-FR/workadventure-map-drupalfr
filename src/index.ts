@@ -6,14 +6,12 @@ import {bootstrapExtra} from "@workadventure/scripting-api-extra";
 bootstrapExtra().catch(e => console.error(e));
 
 let currentPopup: any = undefined;
-const today = new Date();
-const time = today.getHours() + ":" + today.getMinutes();
 
-WA.room.onEnterLayer('clockZone').subscribe(() => {
-    currentPopup =  WA.ui.openPopup("clockPopup","It's " + time,[]);
+WA.room.onEnterLayer('welcomeZone').subscribe(() => {
+    currentPopup =  WA.ui.openPopup("welcomeMessage","Bienvenu(e) sur la carte Workadventure de l'association Drupal France !",[]);
 })
 
-WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
+WA.room.onLeaveLayer('welcomeZone').subscribe(closePopUp)
 
 function closePopUp(){
     if (currentPopup !== undefined) {
