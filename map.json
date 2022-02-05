@@ -224,7 +224,7 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"A perfect virtual office to get started with WorkAdventure!"
+         "value":"WorkAdventure map for Drupal France association"
         }, 
         {
          "name":"mapImage",
@@ -234,7 +234,7 @@
         {
          "name":"mapLink",
          "type":"string",
-         "value":"https:\/\/thecodingmachine.github.io\/workadventure-map-starter-kit\/map.json"
+         "value":"https:\/\/drupal-fr.github.io\/workadventure-map-drupalfr\/map.json"
         }, 
         {
          "name":"mapName",
@@ -374,6 +374,127 @@
          "name":"WA_Exterior",
          "spacing":0,
          "tilecount":850,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":2683,
+         "image":"src\/assets\/tilesets_deviant_milkian_1.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"office_1",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":8,
+         "firstgid":2939,
+         "image":"src\/assets\/floortileset.png",
+         "imageheight":256,
+         "imagewidth":256,
+         "margin":0,
+         "name":"floortileset",
+         "spacing":0,
+         "tilecount":64,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":3003,
+         "image":"src\/assets\/tilesets_deviant_milkian_2.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"office_2",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32,
+         "transparentcolor":"#ff00ff"
+        }, 
+        {
+         "columns":16,
+         "firstgid":3259,
+         "image":"src\/assets\/tilesets_deviant_milkian_3.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"office_3",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32,
+         "transparentcolor":"#ff00ff"
+        }, 
+        {
+         "columns":16,
+         "firstgid":3515,
+         "image":"src\/assets\/tilesets_deviant_milkian_4.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"office_4",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32,
+         "transparentcolor":"#ff00ff"
+        }, 
+        {
+         "columns":64,
+         "firstgid":3771,
+         "image":"src\/assets\/water.png",
+         "imageheight":1536,
+         "imagewidth":2048,
+         "margin":0,
+         "name":"water",
+         "spacing":0,
+         "tilecount":3072,
+         "tileheight":32,
+         "tilewidth":32,
+         "transparentcolor":"#ff00ff"
+        }, 
+        {
+         "columns":18,
+         "firstgid":6843,
+         "image":"src\/assets\/fantasy_1.png",
+         "imageheight":2688,
+         "imagewidth":576,
+         "margin":0,
+         "name":"Fantasy 1",
+         "spacing":0,
+         "tilecount":1512,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":18,
+         "firstgid":8355,
+         "image":"src\/assets\/fantasy_2.png",
+         "imageheight":1568,
+         "imagewidth":576,
+         "margin":0,
+         "name":"Fantasy 2",
+         "spacing":0,
+         "tilecount":882,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":3,
+         "firstgid":9237,
+         "image":"src\/assets\/custom_tileset_1.png",
+         "imageheight":64,
+         "imagewidth":96,
+         "margin":0,
+         "name":"Custom tileset 1",
+         "spacing":0,
+         "tilecount":6,
          "tileheight":32,
          "tilewidth":32
         }],
