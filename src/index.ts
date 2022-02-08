@@ -7,11 +7,19 @@ bootstrapExtra().catch(e => console.error(e));
 
 let currentPopup: any = undefined;
 
+// Welcome.
 WA.room.onEnterLayer('welcomeZone').subscribe(() => {
-    currentPopup =  WA.ui.openPopup("welcomeMessage","Bienvenu(e) sur la carte Workadventure de l'association Drupal France !",[]);
+    currentPopup = WA.ui.openPopup("welcomeMessage","Bienvenu(e) sur la carte Workadventure de l'association Drupal France !",[]);
 })
-
 WA.room.onLeaveLayer('welcomeZone').subscribe(closePopUp)
+
+// Clock.
+WA.room.onEnterLayer('clockZone').subscribe(() => {
+    const today = new Date();
+    const time = today.getHours() + "h" + today.getMinutes();
+    currentPopup = WA.ui.openPopup("clockPopup","Il est " + time,[]);
+})
+WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
 
 function closePopUp(){
     if (currentPopup !== undefined) {
