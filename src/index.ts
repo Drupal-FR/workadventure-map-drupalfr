@@ -10,7 +10,7 @@ let welcomePopup: any = undefined;
 WA.room.onEnterLayer('welcomeZone').subscribe(() => {
     welcomePopup = WA.ui.openPopup("welcomeMessage","Bienvenu(e) sur la carte Workadventure de l'association Drupal France !",[]);
 })
-WA.room.onLeaveLayer('welcomeZone').subscribe(closePopUp(welcomePopup))
+WA.room.onLeaveLayer('welcomeZone').subscribe(closeAllPopUps)
 
 // Clock.
 let clockPopup: any = undefined;
@@ -19,11 +19,15 @@ WA.room.onEnterLayer('clockZone').subscribe(() => {
     const time = today.getHours() + "h" + today.getMinutes();
     clockPopup = WA.ui.openPopup("clockPopup","Il est " + time,[]);
 })
-WA.room.onLeaveLayer('clockZone').subscribe(closePopUp(clockPopup))
+WA.room.onLeaveLayer('clockZone').subscribe(closeAllPopUps)
 
-function closePopUp(currentPopup: { close: () => void; } | undefined){
-    if (currentPopup !== undefined) {
-        currentPopup.close();
-        currentPopup = undefined;
+function closeAllPopUps(){
+    if (welcomePopup !== undefined) {
+        welcomePopup.close();
+        welcomePopup = undefined;
+    }
+    if (clockPopup !== undefined) {
+        clockPopup.close();
+        clockPopup = undefined;
     }
 }
