@@ -21,7 +21,7 @@ WA.room.onEnterLayer('clockZone').subscribe(() => {
 })
 WA.room.onLeaveLayer('clockZone').subscribe(closePopUp(clockPopup))
 
-function closePopUp(currentPopup){
+function closePopUp(currentPopup: { close: () => void; } | undefined){
     if (currentPopup !== undefined) {
         currentPopup.close();
         currentPopup = undefined;
