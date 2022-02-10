@@ -1,8 +1,12 @@
-# WorkAdventure Map Starter Kit
+# Drupal France's WorkAdventure Map
 
-This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
+This is a [WorkAdventure](https://workadventu.re) map for the Drupal France association.
 
-To understand how to use this starter kit, follow the tutorial at [https://workadventu.re/map-building](https://workadventu.re/map-building).
+Used for online events like meetups, contribution sprints or the association's general assembly.
+
+This map had been made from the official [starter kit](https://github.com/thecodingmachine/workadventure-map-starter-kit).
+
+To understand how to build a map, follow the tutorial at [https://workadventu.re/map-building](https://workadventu.re/map-building).
 
 ![map](./map.png)
 
