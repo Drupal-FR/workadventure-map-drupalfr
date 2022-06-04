@@ -133,22 +133,22 @@
                  "name":"jitsiConfig",
                  "type":"string",
                  "value":"{ \"startWithAudioMuted\": true, \"startWithVideoMuted\": true }"
-                },
+                }, 
                 {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"SessionRoom1"
-                },
+                }, 
                 {
                  "name":"jitsiRoomAdminTag",
                  "type":"string",
                  "value":"modo"
-                },
+                }, 
                 {
                  "name":"jitsiTrigger",
                  "type":"string",
                  "value":"onaction"
-                },
+                }, 
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
@@ -203,22 +203,22 @@
                  "name":"jitsiConfig",
                  "type":"string",
                  "value":"{ \"startWithAudioMuted\": true, \"startWithVideoMuted\": true }"
-                },
+                }, 
                 {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"SessionRoom2"
-                },
+                }, 
                 {
                  "name":"jitsiRoomAdminTag",
                  "type":"string",
                  "value":"modo"
-                },
+                }, 
                 {
                  "name":"jitsiTrigger",
                  "type":"string",
                  "value":"onaction"
-                },
+                }, 
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
@@ -273,22 +273,22 @@
                  "name":"jitsiConfig",
                  "type":"string",
                  "value":"{ \"startWithAudioMuted\": true, \"startWithVideoMuted\": true }"
-                },
+                }, 
                 {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"MeetingRoom1"
-                },
+                }, 
                 {
                  "name":"jitsiRoomAdminTag",
                  "type":"string",
                  "value":"modo"
-                },
+                }, 
                 {
                  "name":"jitsiTrigger",
                  "type":"string",
                  "value":"onaction"
-                },
+                }, 
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
@@ -343,22 +343,22 @@
                  "name":"jitsiConfig",
                  "type":"string",
                  "value":"{ \"startWithAudioMuted\": true, \"startWithVideoMuted\": true }"
-                },
+                }, 
                 {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"MeetingRoom2"
-                },
+                }, 
                 {
                  "name":"jitsiRoomAdminTag",
                  "type":"string",
                  "value":"modo"
-                },
+                }, 
                 {
                  "name":"jitsiTrigger",
                  "type":"string",
                  "value":"onaction"
-                },
+                }, 
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
@@ -413,22 +413,22 @@
                  "name":"jitsiConfig",
                  "type":"string",
                  "value":"{ \"startWithAudioMuted\": true, \"startWithVideoMuted\": true }"
-                },
+                }, 
                 {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"MeetingRoom3"
-                },
+                }, 
                 {
                  "name":"jitsiRoomAdminTag",
                  "type":"string",
                  "value":"modo"
-                },
+                }, 
                 {
                  "name":"jitsiTrigger",
                  "type":"string",
                  "value":"onaction"
-                },
+                }, 
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
@@ -483,22 +483,22 @@
                  "name":"jitsiConfig",
                  "type":"string",
                  "value":"{ \"startWithAudioMuted\": true, \"startWithVideoMuted\": true }"
-                },
+                }, 
                 {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"MeetingRoom4"
-                },
+                }, 
                 {
                  "name":"jitsiRoomAdminTag",
                  "type":"string",
                  "value":"modo"
-                },
+                }, 
                 {
                  "name":"jitsiTrigger",
                  "type":"string",
                  "value":"onaction"
-                },
+                }, 
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
@@ -550,15 +550,25 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"jitsiConfig",
+                 "type":"string",
+                 "value":"{ \"startWithAudioMuted\": true, \"startWithVideoMuted\": true }"
+                }, 
+                {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"ChillZoneOrganisation"
-                },
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"modo"
+                }, 
                 {
                  "name":"jitsiTrigger",
                  "type":"string",
                  "value":"onaction"
-                },
+                }, 
                 {
                  "name":"jitsiTriggerMessage",
                  "type":"string",
