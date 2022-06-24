@@ -55,4 +55,20 @@ function closeAllPopUps(){
         clockPopup.close();
         clockPopup = undefined;
     }
+    if (room1Popup !== undefined) {
+        room1Popup.close();
+        room1Popup = undefined;
+    }
+    if (room2Popup !== undefined) {
+        room2Popup.close();
+        room2Popup = undefined;
+    }
+    if (room3Popup !== undefined) {
+        room3Popup.close();
+        room3Popup = undefined;
+    }
+    if (room4Popup !== undefined) {
+        room4Popup.close();
+        room4Popup = undefined;
+    }
 }
