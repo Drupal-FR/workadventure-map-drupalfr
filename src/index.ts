@@ -21,6 +21,31 @@ WA.room.onEnterLayer('clockZone').subscribe(() => {
 })
 WA.room.onLeaveLayer('clockZone').subscribe(closeAllPopUps)
 
+// Meeting rooms.
+let room1Popup: any = undefined;
+WA.room.onEnterLayer('meetingRoom1').subscribe(() => {
+    room1Popup = WA.ui.openPopup("room1Popup","Salle 1",[]);
+})
+WA.room.onLeaveLayer('meetingRoom1').subscribe(closeAllPopUps)
+
+let room2Popup: any = undefined;
+WA.room.onEnterLayer('meetingRoom2').subscribe(() => {
+    room2Popup = WA.ui.openPopup("room2Popup","Salle 2",[]);
+})
+WA.room.onLeaveLayer('meetingRoom2').subscribe(closeAllPopUps)
+
+let room3Popup: any = undefined;
+WA.room.onEnterLayer('meetingRoom3').subscribe(() => {
+    room3Popup = WA.ui.openPopup("room3Popup","Salle 3",[]);
+})
+WA.room.onLeaveLayer('meetingRoom3').subscribe(closeAllPopUps)
+
+let room4Popup: any = undefined;
+WA.room.onEnterLayer('meetingRoom4').subscribe(() => {
+    room4Popup = WA.ui.openPopup("room4Popup","Salle 4",[]);
+})
+WA.room.onLeaveLayer('meetingRoom4').subscribe(closeAllPopUps)
+
 function closeAllPopUps(){
     if (welcomePopup !== undefined) {
         welcomePopup.close();
